@@ -1,21 +1,42 @@
-.aboutMe{
+.Projects{
 	text-align: center;
 	color: #36c987;
 	background-color: black;
+}
+.name{
+	font-family: Courier New;
+	text-align: Left;
+	font-size: 200%;
+	color: #36c987;
+	text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
 }
 .myListStyle{
 	text-align: left;
     display: inline-block;
 }
-.name{
-	font-family: Courier New;
-	text-align: Center;
-	font-size: 200%;
+.aboutMe{
+	text-align: left;
 	color: #36c987;
-	text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
 }
-.topMenu{
-	text-align: Center;
-	font-size: 400%;
-	color: #009B55;
+.sideNav{
+	background-color: #f1f1f1;
+	height: 100%;
+	width: 25%;
+}
+
+.row.content {
+	height: 940px;
+}
+    
+.backgroundColor {
+	background-color: #0C83DA4D;
+	background-image: url("../Images/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+.faStyle{
+	text-align: center;
 }
