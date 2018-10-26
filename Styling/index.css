@@ -24,8 +24,10 @@
 	width: 25%;
 }
 
-.row.content {
-	height: 940px;
+@media screen and (min-height:940px){
+	.row.content {
+		height: 90vh;
+	}
 }
     
 .backgroundColor {
