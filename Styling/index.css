@@ -5,7 +5,7 @@
 }
 .name{
 	font-family: Courier New;
-	text-align: Left;
+	text-align: Center;
 	font-size: 200%;
 	color: #36c987;
 	text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
@@ -19,9 +19,10 @@
 	color: #36c987;
 }
 .sideNav{
-	background-color: #f1f1f1;
+	background-color: #C0C0C0;
 	height: 100%;
 	width: 25%;
+	text-align: center;
 }
 
 @media screen and (min-height:940px){
@@ -31,12 +32,13 @@
 }
     
 .backgroundColor {
-	background-color: #0C83DA4D;
+	background-color: #5CDB95;
 	background-image: url("../Images/img_tree.png");
     background-repeat: no-repeat;
     background-position: right top;
     margin-right: 200px;
     background-attachment: fixed;
+	color: #000000;
 }
 
 .faStyle{
